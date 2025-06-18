@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact Us</title>
   <link rel="stylesheet" href="styles.css"/>
 </head>
@@ -15,9 +16,9 @@
   <section>
     <h1>Contact Us</h1>
     <form onsubmit="sendMessage(event)">
-      <label>Name: <input type="text" required/></label><br/>
-      <label>Email: <input type="email" required/></label><br/>
-      <label>Message: <textarea required></textarea></label><br/>
+      <label>Name:<br/><input type="text" required></label><br/><br/>
+      <label>Email:<br/><input type="email" required></label><br/><br/>
+      <label>Message:<br/><textarea required></textarea></label><br/><br/>
       <button type="submit">Send</button>
     </form>
   </section>
