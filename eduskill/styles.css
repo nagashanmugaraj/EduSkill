@@ -1,31 +1,47 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #f2f2f2;
+  line-height: 1.6;
 }
 
 nav {
-  background-color: #333;
+  background-color: #222;
   padding: 10px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 nav a {
-  color: white;
-  margin-right: 20px;
+  color: #fff;
+  margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
 }
 
-h1, h2 {
-  color: #333;
-}
-
-section {
+header, section {
   margin-bottom: 30px;
 }
 
-img {
+h1, h2 {
+  color: #2c3e50;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards div {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
   width: 300px;
-  margin: 10px;
+}
+
+img {
+  width: 100%;
   border-radius: 10px;
 }
